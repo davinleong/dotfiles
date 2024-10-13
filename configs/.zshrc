@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python=/usr/local/bin/python3.11
 
-export EDITOR=/usr/local/bin/nano
+export EDITOR="nvim"
 export VISUAL="$EDITOR"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -118,3 +118,5 @@ export VISUAL="$EDITOR"
 export FZF_DEFAULT_OPTS="--height=40% --preview='cat {}' --preview-window=right:60%:wrap"
 
 export PATH=$PATH:~/Downloads/zig-macos-x86_64-0.14.0-dev.1860+2e2927735
+
+export PATH=$PATH:/Users/davinleong/.spicetify
